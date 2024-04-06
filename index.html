@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        #client {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            /* margin: auto; */
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .client-pic {
+            width: 300px;
+            height: 300px;
+        }
+        .box {
+            /* border: 1px solid red; */
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        h2 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        h3 {
+            font-size: 14px;
+            color: gray;
+            text-align: center;
+            font-size: 18px;
+            margin-top: -5px;
+        }
+
+        .company-logo {
+            width: 130px;
+            margin-top: -18px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="client">
+        <div class="box">
+            <img class="client-pic"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+                alt="Vijay Shekhar Sharma">
+            <h2>Vijay Shekhar Sharma</h2>
+            <h3>Founder & CEO</h3>
+            <img class="company-logo"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"
+                alt="Paytm Logo">
+        </div>
+        <div class="box">
+            <img class="client-pic"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png"
+                alt="Kunal Shah">
+            <h2>Kunal Shah</h2>
+            <h3>Founder</h3>
+            <img class="company-logo" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/cred_0a47d7b4f8.png"
+                alt="CRED Logo">
+        </div>
+        <div class="box">
+            <img class="client-pic"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg"
+                alt="Amrish Rau">
+            <h2>Amrish Rau</h2>
+            <h3>CEO</h3>
+            <img class="company-logo"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/pine_labs_0aa2407434.png"
+                alt="Pine Labs Logo">
+        </div>
+        <div class="box">
+            <img class="client-pic"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg"
+                alt="Sampad Swain">
+            <h2>Sampad Swain</h2>
+            <h3>Co-Founder & CEO</h3>
+            <img class="company-logo"
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png"
+                alt="Instamojo Image">
+        </div>
+    </div>
+
+</body>
+
+</html>
